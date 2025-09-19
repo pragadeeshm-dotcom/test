@@ -1,11 +1,11 @@
 package RestAssureTest;
 
+import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-import org.testng.annotations.Test;
-
-public class Sample {
+public class SampleTest {
 	
 	@Test
 	void getUser() {
